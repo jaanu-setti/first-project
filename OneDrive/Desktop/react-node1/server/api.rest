@@ -1,0 +1,17 @@
+GET http://localhost:8080/student/all
+
+
+###
+
+POST http://localhost:8080/student/all
+
+Accept: application/json
+Content-Type: application/json
+{
+    "name" : "jaanu",
+    "email" : "jaanu@gmail.com",
+    "age": 23,
+    "rollnumber" : "bjasuh",
+    "branch" : "eee",
+    "gender" : "female"
+}
